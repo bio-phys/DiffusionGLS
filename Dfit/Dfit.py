@@ -1,11 +1,11 @@
 # Code for the estimation of translational diffusion coefficients from simulation data
 # version 1.0 (06/02/2020)
-# Jakob Tom�s Bullerjahn
+# Jakob Tomas Bullerjahn
 # Soeren von Buelow (soeren.buelow@biophys.mpg.de)
 # Gerhard Hummer
 
 # Please read and cite the paper: 
-# J. Bullerjahn, S. v. Buelow, G. Hummer: Optimal estimates of diffusion coefficients from molecular dynamics simulations, Journal of Chemical Physics XXX, YYYYY (2020).
+# J. Bullerjahn, S. v. Buelow, G. Hummer: Optimal estimates of diffusion coefficients from molecular dynamics simulations, Journal of Chemical Physics 153, 024116 (2020).
 
 # INPUT FOR CLASS Dfit.Dcov():
 #
