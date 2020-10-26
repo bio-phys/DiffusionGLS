@@ -1,6 +1,6 @@
 # Code for the estimation of translational diffusion coefficients from simulation data
 # version 1.0 (06/02/2020)
-# Jakob TomÃs Bullerjahn
+# Jakob Tomï¿½s Bullerjahn
 # Soeren von Buelow (soeren.buelow@biophys.mpg.de)
 # Gerhard Hummer
 
@@ -305,6 +305,7 @@ class Dcov():
             self.multi = True
             print('Analyzing trajectories of multiple molecules from the same simulation.')
         else:
+            self.multi = False
             print('Analyzing single trajectory.')
         self.dt = dt # Trajecotory timestep in ps
         self.m = m
@@ -470,7 +471,7 @@ class Dcov():
         ax[0].fill_between(xs,self.D-self.Dempstd,self.D+self.Dempstd,color='C0',alpha=0.5, label = r'$\delta \overline{D}^\mathrm{empirical}$')
         ax[0].axvline(tc,color='tab:red',linestyle='dashed')
         ax[0].set(ylabel='diff. coeff. $D$ [nm$^2$ ps$^{-1}$]')
-        ax[0].set(xlim=(self.tmin*self.dt,(self.tmax+1)*self.dt))
+        ax[0].set(xlim=(self.tmin*self.dt,self.tmax*self.dt))
         ax[0].ticklabel_format(style='scientific',scilimits=(-3,4))
         ax[0].legend(ncol=2)
         ax[1].plot(xs,self.q_m,color='C0')
