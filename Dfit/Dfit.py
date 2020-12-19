@@ -5,7 +5,7 @@
 # Gerhard Hummer
 
 # Please read and cite the paper: 
-# J. Bullerjahn, S. v. Buelow, G. Hummer: Optimal estimates of diffusion coefficients from molecular dynamics simulations, Journal of Chemical Physics 153, 024116 (2020).
+# J. Bullerjahn, S. v. Buelow, G. Hummer: Optimal estimates of self-diffusion coefficients from molecular dynamics simulations, Journal of Chemical Physics 153, 024116 (2020).
 
 # INPUT FOR CLASS Dfit.Dcov():
 #
