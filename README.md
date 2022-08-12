@@ -3,7 +3,7 @@
 Python class library to determine the diffusion coefficient of a time series using a Generalized Least Squares (GLS) minimization procedure, which accounts for the correlation of MSD data.
 
 Please read and cite the reference: J. Bullerjahn, S. v. Bülow, G. Hummer, Optimal estimates of diffusion coeffcients from molecular dynamics
-simulations, Journal of Chemical Physics XXX, YYYYY (2020).
+simulations, Journal of Chemical Physics 153, 024116 (2020).
 
 The input trajectory is analyzed as a whole and split into segments. For each segment, a quality factor Q is computed, indicating how well the trajectory fits a model of random diffusion with noise. The analysis is done for different time steps $\Delta t_n$ of the trajectory. Given the quality factor analysis, the user decides on a time step/diffusion coefficient pair to use.
 
